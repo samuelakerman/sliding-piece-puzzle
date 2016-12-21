@@ -24,3 +24,7 @@ Once a position is visited, it is removed from the queue.
 
 The solution algorithm implements a breadth first search in which a position is taken from the queue,
 and all reachable positions are stored in the hash table and queue. This process lasts until the goal position is taken from the queue.
+
+When the goal position is found, the path to the original board is found by reversing the pointer to each position's parent.
+
+The output shows all positions generated in order to reach the goal, as well as statistics of the data structures usage. For example, it shows how number of buckets in the hash table of size 0, 1, etc.
