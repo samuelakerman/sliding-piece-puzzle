@@ -4,7 +4,7 @@ Sliding piece puzzle assignment for the Data Structures course. Brandeis Univers
 Given an MxN board and initial position, the objective of this algorithm is to reach a goal position. 
 Within the board, there are fixed cells that cannot be moved.
 
-For example, given a 4x3 board, where dollar signs represent fixed cells:
+For example, given a 3x4 board, where dollar signs represent fixed cells:
 
                                                   NITE
                                                   $.$.
